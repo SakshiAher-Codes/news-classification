@@ -1,10 +1,4 @@
 import streamlit as st
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-sns.set()
-
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
